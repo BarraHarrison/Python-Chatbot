@@ -1,0 +1,167 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up",
+                "how is it going?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "see you later",
+                "goodbye",
+                "catch you later",
+                "take care"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you?",
+                "what is your age?",
+                "tell me your age",
+                "are you old?"
+            ],
+            "responses": [
+                "I am a chatbot, so I don't age like humans.",
+                "I exist beyond time!",
+                "I was created recently, but I'm always learning."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name?",
+                "who are you?",
+                "do you have a name?",
+                "can you tell me your name?"
+            ],
+            "responses": [
+                "I am your friendly chatbot!",
+                "You can call me ChatBot!",
+                "My name is whatever you wish it to be."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "what are your hours?",
+                "when are you available?",
+                "can I chat with you anytime?",
+                "are you always online?"
+            ],
+            "responses": [
+                "I'm available 24/7 to assist you!",
+                "I'm here whenever you need me.",
+                "You can talk to me anytime."
+            ]
+        },
+        {
+            "tag": "prices",
+            "patterns": [
+                "how much does it cost?",
+                "what are the prices?",
+                "is it expensive?",
+                "tell me the cost"
+            ],
+            "responses": [
+                "The prices vary depending on the service.",
+                "Could you specify what you're asking about?",
+                "I'm here to provide information; let me know the specifics."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "i need help",
+                "can you assist me?",
+                "help me",
+                "i need some assistance",
+                "can you help?"
+            ],
+            "responses": [
+                "Of course! How can I assist you?",
+                "Sure, I'm here to help.",
+                "Let me know what you need help with."
+            ]
+        },
+        {
+            "tag": "stocks",
+            "patterns": [
+                "what's the stock market like?",
+                "tell me about stocks",
+                "give me stock updates",
+                "how are the markets today?",
+                "stock prices?"
+            ],
+            "responses": [
+                "I'm not connected to live data yet, but I can help you learn about stocks!",
+                "Stocks can go up or down. Do you have a specific question?",
+                "Let me know which company you're interested in, and I'll try to help!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "what's the weather like?",
+                "is it raining?",
+                "tell me the forecast",
+                "how's the weather?",
+                "is it sunny today?"
+            ],
+            "responses": [
+                "I can help with general weather info! Where are you located?",
+                "It depends on your location. Could you provide it?",
+                "Weather details are just a query away. Let me know your city."
+            ]
+        },
+        {
+            "tag": "trending_technologies",
+            "patterns": [
+                "what are the latest technologies?",
+                "tell me about trending tech",
+                "what's new in technology?",
+                "latest tech trends",
+                "new technologies?"
+            ],
+            "responses": [
+                "AI, machine learning, and blockchain are some trending topics!",
+                "Quantum computing, IoT, and cloud computing are quite popular.",
+                "AR/VR and 5G are making waves in the tech world."
+            ]
+        },
+        {
+            "tag": "directions",
+            "patterns": [
+                "how do I get to the nearest store?",
+                "can you give me directions?",
+                "what's the way to the mall?",
+                "how do I reach the park?",
+                "tell me the route"
+            ],
+            "responses": [
+                "Could you specify your starting point and destination?",
+                "I'm here to help with directions. Where are you headed?",
+                "Let me know the locations, and I'll assist you with the route."
+            ]
+        }
+    ]
+}
